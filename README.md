@@ -19,17 +19,18 @@ This application has the following dependencies:
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- Spring Cloud config
-
-- ...
+- Spring Cloud Config
+- Spring Cloud Load Balancer
+- Spring Cloud OpenFeign
+- Spring Cloud Netflix Eureka Client
+- Spring Boot DevTools
+- Spring Boot Starter AOP
+- Resilience4j Spring Boot 2
+- H2 Database (runtime)
+- Spring Boot Starter Test (test)
 
 ## Configuration
 
 The application can be configured by modifying the following properties:
 
 - `application.properties`: Contains general application configuration.
-
-## Build and Run
-
-To build and run the application, use the following commands:
-
